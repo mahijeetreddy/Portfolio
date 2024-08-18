@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Kablammo&family=Neonderthaw&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+BE+WAL&family=Protest+Strike&display=swap');
+
+.google-font {
+  font-family: "Protest Strike", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+code {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.25rem;
+  background-color: rgba(0, 0, 0, 0.1); 
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+}
+
+.vertical-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 5vw; 
+}
+
+.lottie-container {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lottie-container svg {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+
+
+.text-container-l {
+  position: absolute;
+  top: 50%;
+  left: 5%; 
+  transform: translateY(-50%);
+  text-align: left;
+}
+
+.text-container-r {
+  position: absolute;
+  top: 50%;
+  right: 5%; 
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.text-container-r code {
+  font-family: "Courier New", Courier, monospace; /* Monospace font for code */
+  background-color: #f4f4f4; /* Light background for better contrast */
+  color: #d63384; /* Color for the code text */
+  padding: 2px 4px; /* Padding around the code text */
+  border-radius: 4px; /* Rounded corners */
+  border: 1px solid #ddd; /* Subtle border to define the area */
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  overflow-wrap: break-word; /* Ensure long code lines wrap */
+}
+
+.animate-focus-in {
+  animation: focus-in-contract-bck 1s ease-out both;
+}
+
+@-webkit-keyframes focus-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(300px);
+    transform: translateZ(300px);
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  60% {
+    -webkit-transform: translateZ(30px);
+    transform: translateZ(30px);
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(12px);
+    transform: translateZ(12px);
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+@keyframes focus-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(300px);
+    transform: translateZ(300px);
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  60% {
+    -webkit-transform: translateZ(30px);
+    transform: translateZ(30px);
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(12px);
+    transform: translateZ(12px);
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+.group-hover\:opacity-50:hover {
+  opacity: 0.5;
+}
+
+button:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+button.animate-focus-in {
+  animation: pulse 2s infinite;
+}
