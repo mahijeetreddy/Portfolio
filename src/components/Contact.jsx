@@ -8,6 +8,8 @@ import { EarthCanvas } from './canvas'
 import { SectionWrapper } from '../hoc'
 import { slideIn } from '../utils/motion'
 import Earth from './canvas/Earth'
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 
 const Contact = () => {
@@ -63,6 +65,7 @@ emailjs.send('service_tzktv6v',
 }
 
   return (
+    <div>
     <div
     className='xl:mt-12 xl:flex-row
     flex-col-reverse flex gap-10 overflow-hidden'>
@@ -142,6 +145,40 @@ className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
 
 
 </motion.div>
+
+    </div>
+
+    <div className="mt-20 flex flex-col mb-[-3rem] items-center justify-center text-center space-y-2">
+  <p className="text-sm font-medium text-gray-500 dark:text-gray-400 capitalize">
+    &copy; 2024 Mahijeet Reddy
+  </p>
+  <div className="flex space-x-4">
+    <a
+      href="https://github.com/mahijeetreddy"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-gray-500 hover:text-gray-900 dark:hover:text-white transition-colors"
+    >
+      <i className="fab fa-github"></i>
+    </a>
+    <a
+      href="https://www.linkedin.com/in/mahijeet-reddy-gaddam/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-gray-500 hover:text-gray-900 dark:hover:text-white transition-colors"
+    >
+      <i className="fab fa-linkedin"></i>
+    </a>
+    <a
+      href="mailto:mahijeet1127@gmail.com"
+      className="text-gray-500 hover:text-gray-900 dark:hover:text-white transition-colors"
+    >
+      <i className="fas fa-envelope"></i>
+    </a>
+  </div>
+</div>
+
+
 
 
     </div>
