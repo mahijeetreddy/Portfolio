@@ -58,6 +58,27 @@ const Hero = () => {
 
       <ComputersCanvas />
 
+
+      <div className="absolute right-24  top-[55%] flex items-center justify-center">
+        <div className="relative w-20 h-20 ">
+          <div
+            className="absolute w-full h-full border-[3px] border-t-0 border-r-0 border-secondary rounded-full"
+            style={{
+              clipPath: "inset(10% 0 0 0%)",
+              transform: "skewX(65deg)",
+            }}
+          />
+          <div
+            className="absolute w-3 h-3 bg-secondary transform rotate--45"
+            style={{
+              top: "50%",
+              left: "100%",
+              transform: "translate(-50%, -50%) rotate(5deg) skewX(30deg)",
+            }}
+          />
+        </div>
+      </div>
+
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
