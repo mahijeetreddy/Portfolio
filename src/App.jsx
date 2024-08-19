@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LandingPage from "./components/LandingPage";
 import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas } from './components';
+import { Analytics } from "@vercel/analytics/react"
 
 const Portfolio = () => {
   return (
@@ -17,6 +18,8 @@ const Portfolio = () => {
       <div className="relative z-0">
         <Contact />
       </div>
+
+      <Analytics />
     </div>
   );
 };
