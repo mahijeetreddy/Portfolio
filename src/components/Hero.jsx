@@ -34,7 +34,7 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
+          <h1 className={`${styles.heroHeadText} text-white xs:text-5xl`} >
             Hi, I am <span className="gradient-text">Mahijeet</span>
           </h1>
           <h2 className={`${styles.heroSubText} mt-2 text-white-100`}>
@@ -61,8 +61,8 @@ const Hero = () => {
       <ComputersCanvas />
 
 
-      <div className="absolute right-24 opacity-50 top-[55%] flex items-center justify-center">
-        <div className="relative w-20 h-20 ">
+      <div className="absolute right-24 opacity-50 top-[55%] flex items-center justify-center ">
+        <div className="absolute w-20 h-20 ">
       <img src={xyzRotate} alt="Rotation Denoting Image" />
         </div>
       </div>
