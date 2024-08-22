@@ -11,7 +11,7 @@ const Hero = () => {
   const textOptions = [
     "Front-end Developer",
     "Web Developer",
-    "Software Engineer",
+    "Software Developer",
     "Fullstack Developer",
   ];
 
