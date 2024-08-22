@@ -176,6 +176,13 @@ className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
       <i className="fas fa-envelope"></i>
     </a>
   </div>
+  <a
+      href="/Resume.pdf"
+      download="Resume.pdf"
+      className="text-gray-500 hover:text-gray-900 dark:hover:text-white transition-colors"
+    >
+      <i className="fas fa-download"> <span> Resume</span></i>
+    </a>
 </div>
 
     </div>
