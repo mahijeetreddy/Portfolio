@@ -118,9 +118,9 @@ import {
       iconBg: "#383E56",
       date: "January 2024 - May 2024",
       points: [
-        "Enhanced student engagement and success by instructing 37+ students in front-end engineering, involving JavaScript, Node.js, React, and TypeScript, fostering a 100% pass rate in Spring 2024.",
-        "Devised comprehensive course materials, including code reviews, project assignments, and debugging sessions, reinforcing student learning outcomes and engagement throughout the semester.",
-        "Elevated learning experiences by utilizing interactive platforms like GitHub Classroom and React environments, yielding a 35% increase in student participation and a 25% rise in assignment completion rates, over the term.",
+        "Delivered advanced front-end engineering education to 37+ students in JavaScript, Node.js, React, and TypeScript, ensuring a 100% pass rate in Spring 2024 through effective communication, teaching and mentoring.",
+        "Devised a structured curriculum with comprehensive materials, including code reviews, open-source projects, and debugging workshops, reinforcing student learning outcomes and core concepts throughout the semester.",
+        "Utilized interactive platforms such as GitHub Classroom and React environments yielding a 35% increase in participation and a 25% improvement in assignment completion rates, demonstrating a strong ability to apply modern development tools and techniques.",
       ],
     },
     {
@@ -129,8 +129,8 @@ import {
       iconBg: "#E6DEDD",
       date: "October 2021 - March 2022",
       points: [
-        "•	Collaborated with project managers and UX designers to augment cross-device user experience using JavaScript and Bootstrap, boosting mobile usability metrics by 25% and saving 20% on development time during the internship",
-        "Incorporated Selenium for automated testing, mitigating manual testing efforts by 30% and optimizing the testing process, enhancing software quality throughout the tenure",
+        "Collaborated with project managers and UX designers to augment cross-device user experience using JavaScript and Bootstrap, boosting mobile usability metrics by 25% and saving 20% on development time during the internship.",
+        "Incorporated Selenium for automated testing, mitigating manual efforts by 30% and optimizing the testing process, enhancing software quality throughout the tenure.",
         "Orchestrated seamless database integration across 30+ webpages, enabling real-time updates and enriching user interaction and functionality with robust backend scripts in Python and PHP during a 6-month internship.",
       ],
     },
@@ -141,7 +141,7 @@ import {
     {
       name: "Gourmet Recipe Book App",
       description:
-        "Designed a recipe management app using TypeScript and Angular, enabling seamless recipe creation and storage for users supporting over 5,000 recipes in the five- month time span. Secured user data by applying an MVC-based authentication with Firestore, strengthening data protection measures with a 30% decrease in login- related incidents over a targeted 4-month phase. Streamlined app performance through Angular lazy loading and Firestore indexing, culminating in a 20% reduction in load times and bolstering scalability across the 5-month cycle.",
+        "Designed a recipe management app using TypeScript and Angular, supporting and considering 5,000+ data points over 5 months, focusing on maintainability and scalability. Strengthened security by implementing MVC-based authentication with Firestore, bolstering data protection measures; cut login-related issues by 30% during a targeted 4-month phase. Streamlined reliability and app execution using Angular lazy loading and Firestore indexing, culminating in a 20% reduction in load times while ensuring smooth deployment.",
       tags: [
         {
           name: "TypeScript",
@@ -166,8 +166,7 @@ import {
     {
       name: "Digital Streaming Application",
       description:
-        "Devised a Netflix-like streaming app using Kotlin and Android Studio, improving user engagement by 20% with a user-friendly interface and reducing bugs by 30% through efficient debugging within 4 months. Integrated Firebase for seamless storage and retrieval, supporting 30+ streaming contents and handling over 50 HTTPS requests per day in the last two months of the project."
-        ,
+        "Architected a Netflix-like streaming app using Kotlin and Android Studio, improving user engagement by 20% with a user-friendly interface while reducing bugs by 30% through proactive debugging within 4 months. Leveraged Firebase for robust storage and data retrieval, efficiently managing 50+ HTTPS requests daily and supporting 30+ streaming assets in the final 2 months.",
       tags: [
         {
           name: "Android Studio",
@@ -192,8 +191,7 @@ import {
     {
       name: "Automatic Tunnel Incident Detection",
       description:
-        "Deployed a Faster RCNN model for tunnels, attaining 97% accident detection accuracy during the 3-month project. Spearheaded performance optimization initiatives, resulting in a 25% improvement in response times and minimizing frame noise by 40% over a focused 3-month interval. Integrated real-time alert notifications using WebSocket technology, lowering incident response time by 50% and ameliorating overall safety monitoring effectiveness during the execution period."
-        ,
+        "Deployed a Faster RCNN model for tunnels, attaining 97% accident detection accuracy during the 3-month project. Spearheaded performance optimization initiatives, accelerating response times by 25% and minimizing frame noise by 40% over a focused 3-month interval. Embedded real-time alerting via WebSocket, slashing incident response times by 50% and ameliorating overall safety monitoring effectiveness through dependable operation.",
       tags: [
         {
           name: "Python",
@@ -218,8 +216,7 @@ import {
     {
       name: "E- Safety Welcoming",
       description:
-        "Pioneered the development of a smart home security system, integrating advanced Data Storage and Face Recognition to process over 10,000 data entries with real-time recognition speeds during the 2-month build timeline. Engineered a facial recognition system, achieving a high match rate threshold of 95% over an intensive 8-week development cycle."
-        ,
+        "Pioneered the creation of a smart home security system, integrating advanced data storage and facial recognition to securely process 10,000+ entries with reliable real-time processing, emphasizing maintainability. Engineered a facial recognition module, reaching 96% match accuracy over a 16-week development cycle.",
       tags: [
         {
           name: "Python",
