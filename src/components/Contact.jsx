@@ -113,7 +113,7 @@ onSubmit={handleSubmit}
     onChange={handleChange}
     placeholder='What do you want to say?'
     className='bg-tertiary py-4 px-6 placeholder: text-secondary
-    text-white rounded-lg outlined-none border-none font-medium'
+    text-white rounded-lg outlined-none border-none font-medium resize-none'
 
 />
   </label>
