@@ -127,7 +127,7 @@ import {
       title: "Web Development Intern",
       company_name: "The SPARKS Foundation",
       iconBg: "#E6DEDD",
-      date: "October 2021 - March 2022",
+      date: "February 2022 - July 2022",
       points: [
         "Collaborated with project managers and UX designers to augment cross-device user experience using JavaScript and Bootstrap, boosting mobile usability metrics by 25% and saving 20% on development time during the internship.",
         "Incorporated Selenium for automated testing, mitigating manual efforts by 30% and optimizing the testing process, enhancing software quality throughout the tenure.",
@@ -156,7 +156,7 @@ import {
           color: "pink-text-gradient",
         },
         {
-          name: "Git",
+          name: "Python",
           color: "blue-text-gradient",
         }
       ],
@@ -164,24 +164,24 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Digital Streaming Application",
+      name: "Digital Streaming Dashboard",
       description:
-        "Architected a Netflix-like streaming app using Kotlin and Android Studio, improving user engagement by 20% with a user-friendly interface while reducing bugs by 30% through proactive debugging within 4 months. Leveraged Firebase for robust storage and data retrieval, efficiently managing 50+ HTTPS requests daily and supporting 30+ streaming assets in the final 2 months.",
+        "Engineered a Digital Streaming Dashboard using React and JavaScript, improving user retention by 20% with a user-friendly interface and reduced bug occurrence by 30% through rigorous debugging practices within 4 months. Leveraged Firebase for robust Backend Integration and GraphQL for efficient data retrieval, efficiently managing 50+ Query Requests daily and supporting 40+ streaming assets. Harnessed Python for backend data processing and API integration, handling complex data operations and enhancing data synchronization between the frontend and backend systems.",
       tags: [
         {
-          name: "Android Studio",
+          name: "JavaScript",
           color: "blue-text-gradient",
         },
         {
-          name: "Kotlin",
+          name: "React",
           color: "green-text-gradient",
         },
         {
-          name: "Firebase",
+          name: "Python",
           color: "pink-text-gradient",
         },
         {
-          name: "Git",
+          name: "GraphQL",
           color: "blue-text-gradient",
         },
       ],
@@ -191,14 +191,14 @@ import {
     {
       name: "Automatic Tunnel Incident Detection",
       description:
-        "Deployed a Faster RCNN model for tunnels, attaining 97% accident detection accuracy during the 3-month project. Spearheaded performance optimization initiatives, accelerating response times by 25% and minimizing frame noise by 40% over a focused 3-month interval. Embedded real-time alerting via WebSocket, slashing incident response times by 50% and ameliorating overall safety monitoring effectiveness through dependable operation.",
+        "Launched a Faster RCNN model for tunnels, attaining 97% accident detection accuracy during the 3-month project. Spearheaded performance optimization initiatives, accelerating response times by 25% and minimizing frame noise by 40% over a focused 3-month interval. Embedded real-time alerting via WebSocket, slashing incident response times by 50% and ameliorating overall safety monitoring effectiveness through dependable operation. Optimized deployment with Docker, cutting time by 40%, and enhancing scalability and performance consistency.",
       tags: [
         {
           name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "TKinter",
+          name: "Docker",
           color: "green-text-gradient",
         },
         {
