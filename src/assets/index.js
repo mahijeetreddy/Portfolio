@@ -30,9 +30,9 @@ import dsp from "./dsp.jpg";
 import grb from "./grb.png";
 import atid from "./atid.png";
 import ems from "./ems.png";
-import rmc from "dist/assets/rmc.png";
-import fmp from "dist/assets/Pet Tracker.png";
-import tra from "dist/assets/transit.png";
+import rmc from "./rmc.png";
+import ptr from "./ptr.png";
+import tra from "./transit.png";
 
 
 export {
@@ -66,6 +66,6 @@ export {
   atid,
   ems,
   rmc,
-  fmp,
+  ptr,
   tra
 };

@@ -22,7 +22,7 @@ import {
     aws,
     tra,
     rmc,
-    fmp,
+    ptr,
   } from "../assets";
   
   export const navLinks = [
@@ -263,7 +263,7 @@ import {
           color: "blue-text-gradient",
         },
       ],
-      image: fmp,
+      image: ptr,
       source_code_link: "https://github.com/",
     },
     {
