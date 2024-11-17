@@ -30,7 +30,7 @@ import dsp from "./dsp.jpg";
 import grb from "./grb.png";
 import atid from "./atid.png";
 import ems from "./ems.png";
-import rmc from "dist/assets/RMC.png";
+import rmc from "dist/assets/rmc.png";
 import fmp from "dist/assets/Pet Tracker.png";
 import tra from "dist/assets/transit.png";
 
