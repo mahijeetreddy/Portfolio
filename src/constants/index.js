@@ -20,6 +20,9 @@ import {
     ems,
     cpp,
     aws,
+    tra,
+    rmc,
+    fmp,
   } from "../assets";
   
   export const navLinks = [
@@ -186,6 +189,81 @@ import {
         },
       ],
       image: dsp,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Realtime Multimedia Collaboration",
+      description:
+        "Developed a collaborative multimedia platform enabling Concurrent users to upload and process images, videos, and text, utilizing Python and React for seamless user experiences. Implemented real-time interconnectivity using WebRTC and React and Javascript, ensuring low-latency communication and enhanced system responsiveness for concurrent user interactions. Designed algorithms to enhance uploaded media, delivered consistent media quality for diverse data types. Streamlined backend operations with scalable architecture, optimized system performance and reliability, reducing downtime by 25% during peak usage with efficient load balancing and resource allocation.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "React",
+          color: "green-text-gradient",
+        },
+        {
+          name: "WebRTC",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Algorithms",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: rmc,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Public Transit Commute Optimizer",
+      description:
+        "Designed and implemented a transit optimization app serving multiple users, leveraging PostgreSQL to handle real-time transit data and optimize route planning. Created advanced SQL queries and views for route suggestions, reducing query execution time by 35% and improving route accuracy by 20%. Integrated Google Maps API and crowd density data, enabling users to visualize routes and avoid congested transit options, cutting commute times by 15%. Developed an analytics module using SQL stored procedures, helping transit authorities identify overcrowded routes, increasing service efficiency by 25%, ensured <1s query response times during high usage periods.",
+      tags: [
+        {
+          name: "JavaScript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "React",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Python",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "GraphQL",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: tra,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "FindMyPet: Lost Pet Tracker",
+      description:
+        "Built an app to help pet owners locate their lost pets using geolocation and user-uploaded sighting reports, integrated with Firebase for real-time updates. Implemented a notification system via Twilio API, resulting in a 35% reduction in time-to-notification for new sightings reported within a 5-mile radius. Designed an intuitive interface featuring interactive maps and photo uploads, improving user engagement by 40% and streamlining the search process for 500+ reported sightings. Optimized app performance with React Lazy Libraries, achieving a 30% faster load time, ensuring functionality even on low-speed networks.",
+      tags: [
+        {
+          name: "TypeScript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Firebase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "React",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Rest APIs",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: fmp,
       source_code_link: "https://github.com/",
     },
     {
